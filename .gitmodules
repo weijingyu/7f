@@ -1,3 +1,6 @@
 [submodule "lib/imgui"]
 	path = lib/imgui
 	url = https://github.com/weijingyu/imgui
+[submodule "lib/json"]
+	path = lib/nlohmann_json
+	url = https://github.com/nlohmann/json
