@@ -1,3 +1,6 @@
 project(lib)
-
+set(USE_SYSTEM_CURL ON)
 add_subdirectory(imgui)
+add_subdirectory(nlohmann_json)
+add_subdirectory(nativefiledialog-extended)
+add_subdirectory(libimhex)

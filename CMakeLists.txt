@@ -9,3 +9,7 @@ add_custom_target(7f_all ALL DEPENDS main)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
+
+if (WIN32)
+    add_compile_definitions(OS_WINDOWS)
+endif()
